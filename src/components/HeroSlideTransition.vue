@@ -70,6 +70,11 @@ function prevAndReset() {
 }
 
 onMounted(() => {
+  // Preload all images
+  images.forEach((src) => {
+    const img = new window.Image();
+    img.src = src;
+  });
   startAutoSlide();
 });
 onBeforeUnmount(() => {
@@ -91,9 +96,11 @@ onBeforeUnmount(() => {
       >
         <!-- Overlay text -->
         <div
-          class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 text-white"
+          class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 slide-description"
         >
-          <h2 class="text-3xl font-bold mb-2">{{ slide.title }}</h2>
+          <h2 class="text-3xl font-bold mb-2">
+            {{ slide.title }}
+          </h2>
           <p class="text-lg">{{ slide.text }}</p>
         </div>
       </div>
@@ -161,6 +168,17 @@ onBeforeUnmount(() => {
 }
 .flex-shrink-0.bg-cover.bg-center.relative {
   background-color: #000; /* fallback for images */
+}
+.slide-description {
+  color: #d4a750; /* Gold color for text */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  font-family: "Challet", Tahoma, Arial, Helvetica, sans-serif;
+}
+.slide-description h2 {
+  font-size: 2rem; /* Adjust as needed */
+}
+.slide-description p {
+  font-size: 1.2rem; /* Adjust as needed */
 }
 </style>
 <script>
