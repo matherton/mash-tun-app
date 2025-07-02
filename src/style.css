@@ -3,7 +3,7 @@
 @plugin "daisyui";
 
 #app {
-  height: 100%;
+  height: 100vh;
 }
 .gold {
   color: #d4a750;
