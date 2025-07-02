@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
           <h2 class="text-3xl font-bold mb-2">
             {{ slide.title }}
           </h2>
-          <p class="text-lg">{{ slide.text }}</p>
+          <p class="text-lg text-white">{{ slide.text }}</p>
         </div>
       </div>
     </div>
@@ -176,9 +176,14 @@ onBeforeUnmount(() => {
 }
 .slide-description h2 {
   font-size: 2rem; /* Adjust as needed */
+  margin: 10px 0;
+  padding-left: 0.5rem;
+  text-decoration: underline;
 }
 .slide-description p {
   font-size: 1.2rem; /* Adjust as needed */
+  max-width: 60%;
+  text-align: center;
 }
 </style>
 <script>
