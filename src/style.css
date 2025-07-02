@@ -2,6 +2,9 @@
 @import "./fonts.css";
 @plugin "daisyui";
 
+#app {
+  height: 100%;
+}
 .gold {
   color: #d4a750;
   font-family: "Challet", sans-serif;
