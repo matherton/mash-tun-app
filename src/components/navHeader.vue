@@ -27,9 +27,9 @@ import logo from "../assets/mash-tun-icon.jpg";
           tabindex="0"
           class="menu menu-sm dropdown-content bg-navbar text-[#d4a750] rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
-          <li><a>Homepage</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
+          <li><a>Menu item 1</a></li>
+          <li><a>Menu item 2</a></li>
+          <li><a>Menu item 3</a></li>
         </ul>
       </div>
     </div>
@@ -53,6 +53,10 @@ export default {
 };
 </script>
 <style scoped>
+.dropdown .menu li a {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
 .menu li:hover {
   background-color: #fff;
   border-radius: 8px;

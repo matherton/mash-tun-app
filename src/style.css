@@ -4,10 +4,10 @@
 
 #app {
   height: 100vh;
+  font-family: "Challet", sans-serif;
 }
 .gold {
   color: #d4a750;
-  font-family: "Challet", sans-serif;
 }
 
 .bg-navbar {
