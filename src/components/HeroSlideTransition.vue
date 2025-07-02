@@ -156,6 +156,12 @@ onBeforeUnmount(() => {
 .h-full {
   height: 100%;
 }
+.relative.w-full.h-full.overflow-hidden {
+  background: #000; /* or your preferred color */
+}
+.flex-shrink-0.bg-cover.bg-center.relative {
+  background-color: #000; /* fallback for images */
+}
 </style>
 <script>
 export default {
