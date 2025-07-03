@@ -39,7 +39,7 @@ import logo from "../assets/mash-tun-icon.jpg";
         alt="Mash Tun Logo"
         class="h-16 w-16 mr-2 rounded-full"
       />
-      <h1 class="text-xl xl:text-3xl gold">The Mash Tun</h1>
+      <h1 class="text-3xl md:text-4xl gold">The Mash Tun</h1>
     </div>
     <div class="navbar-end flex flex-col items-end gap-2">
       <insta />
@@ -61,6 +61,7 @@ export default {
   background-color: #fff;
   border-radius: 8px;
   text-decoration: underline;
+  color: #192b39;
 }
 .navbar {
   padding: 1rem;

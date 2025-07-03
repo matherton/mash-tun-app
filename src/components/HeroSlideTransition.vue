@@ -60,8 +60,15 @@ function stopAutoSlide() {
     intervalId = null;
   }
 }
+function preloadNextImage() {
+  const nextIndex = (currentIndex.value + 1) % images.length;
+  const img = new window.Image();
+  img.src = images[nextIndex];
+}
+
 function nextAndReset() {
   next();
+  preloadNextImage();
   startAutoSlide();
 }
 function prevAndReset() {
@@ -91,9 +98,14 @@ onBeforeUnmount(() => {
       <div
         v-for="(slide, i) in slides"
         :key="i"
-        class="w-full h-full flex-shrink-0 bg-cover bg-center relative"
-        :style="{ backgroundImage: `url(${slide.img})` }"
+        class="w-full h-full flex-shrink-0 bg-black flex items-center justify-center relative"
       >
+        <img
+          :src="slide.img"
+          :alt="slide.title"
+          class="object-cover w-full h-full"
+          @load="onImageLoad"
+        />
         <!-- Overlay text -->
         <div
           class="absolute inset-0 flex flex-col items-center justify-center bg-black/40 slide-description"
