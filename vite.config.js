@@ -4,5 +4,5 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [tailwindcss(), vue()],
-  base: "/mash-tun-app",
+  base: "/mash-tun-app/",
 });
