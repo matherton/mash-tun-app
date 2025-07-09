@@ -2,16 +2,15 @@
 import { GoogleMap, CustomMarker, Marker } from "vue3-google-map";
 
 const center = { lat: 55.960047, lng: -3.171365 };
-const apiKey = "AIzaSyBLgcpsxfGInIpfUDO1oPY7Rp3k66jFoto"; // define apiKey here
+const apiKey = "AIzaSyA0W6steDu3mXauVv9t5ymeebHYWLjKRbw"; // define apiKey here
 </script>
 
 <template>
-  <div class="divider">Location</div>
   <GoogleMap
     :api-key="apiKey"
     style="width: 100%; height: 500px"
     :center="center"
-    :zoom="19"
+    :zoom="16"
   >
     <CustomMarker :options="{ position: center, anchorPoint: 'BOTTOM_CENTER' }">
       <div
