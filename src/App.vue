@@ -39,4 +39,9 @@ import GoogleMap from "./components/GoogleMap.vue";
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.divider::before,
+.divider::after {
+  background-color: #ebb04d;
+}
+</style>
