@@ -27,9 +27,9 @@ import logo from "../assets/mash-tun-icon.jpg";
           tabindex="0"
           class="menu menu-sm dropdown-content bg-navbar text-[#d4a750] rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
-          <li><a>Menu item 1</a></li>
-          <li><a>Menu item 2</a></li>
-          <li><a>Menu item 3</a></li>
+          <li><a href="https://edinburghmashtun.co.uk/" target="_blank">Menu</a></li>
+          <li><a href="#promotions">Promotions</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>

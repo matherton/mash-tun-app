@@ -12,9 +12,17 @@ import drinkImg from "./assets/drink.png";
 <template>
   <navHeader />
   <HeroSlider />
-  <Promotion :imgSrc="cockTailsImg" :imgSrc2="drinkImg" />
-  <Contact />
+  <div id="promotions">
+    <Promotion :imgSrc="cockTailsImg" :imgSrc2="drinkImg" />
+  </div>
+  <div id="contact">
+    <Contact />
+  </div>
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+html {
+  scroll-behavior: smooth;
+}
+</style>

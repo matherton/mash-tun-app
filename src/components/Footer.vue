@@ -22,8 +22,11 @@ import insta from "./icons/insta.vue";
       </svg>
       <p>
         Copyright © The Mash Tun - All right reserved. Created by
-        <a href="https://matherton.github.io/insightinternetApp/"
-          >InsightInternet</a
+        <a
+          href="https://matherton.github.io/insightinternetApp/"
+          class="underline"
+        >
+          <span class="text-[#ebb04d]">InsightInternet</span></a
         >
       </p>
     </aside>
