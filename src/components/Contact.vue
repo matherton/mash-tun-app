@@ -5,11 +5,7 @@ import GoogleMap from "./GoogleMap.vue";
 <template lang="">
   <div class="divider">Contact</div>
   <div class="flex flex-col md:flex-row">
-    <!-- Left: Google Map -->
-    <div class="flex-1 min-w-0">
-      <GoogleMap />
-    </div>
-    <!-- Right: Address -->
+    <!-- Left: Address -->
     <div
       class="flex-1 min-w-0 flex items-center justify-center bg-gray-100 p-4"
     >
@@ -33,6 +29,11 @@ import GoogleMap from "./GoogleMap.vue";
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Right: GoogleMap -->
+    <div class="flex-1 min-w-0">
+      <GoogleMap />
     </div>
   </div>
 </template>
