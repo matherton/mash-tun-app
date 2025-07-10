@@ -10,7 +10,9 @@ import GoogleMap from "./GoogleMap.vue";
       <GoogleMap />
     </div>
     <!-- Right: Address -->
-    <div class="flex-1 min-w-0 flex items-center justify-center bg-gray-100">
+    <div
+      class="flex-1 min-w-0 flex items-center justify-center bg-gray-100 p-4"
+    >
       <div
         class="bg-navbar text-[#d4a750] rounded-lg p-6 shadow w-full max-w-md"
       >
