@@ -13,3 +13,8 @@
 .bg-navbar {
   background-color: #192b39;
 }
+
+.divider::before,
+.divider::after {
+  background-color: #ebb04d;
+}
