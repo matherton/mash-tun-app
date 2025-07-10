@@ -30,12 +30,9 @@ import insta from "./icons/insta.vue";
     <nav
       class="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-[#ebb04d]"
     >
-      <a>
-        <insta />
-      </a>
-      <a>
-        <facebook />
-      </a>
+      <insta />
+
+      <facebook />
     </nav>
   </footer>
 </template>
