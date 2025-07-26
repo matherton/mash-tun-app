@@ -1,14 +1,10 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
-/* import camera from "../assets/slider-imgs/camera.jpg";
-import iphone from "../assets/slider-imgs/iphone.jpg";
-import mixinDesk from "../assets/slider-imgs/mixing-desk.jpg";
-import mixinDesk2 from "../assets/slider-imgs/mixing-desk2.jpg"; */
 import skateboard from "../assets/slider-imgs/skateboard.jpg";
-import burger from "../assets/slider-imgs/burgernchips.jpg";
-import croquettes from "../assets/slider-imgs/croquettes.jpg";
-import nachos from "../assets/slider-imgs/nachos.jpg";
-import pescadito from "../assets/slider-imgs/pescadito-frito.jpg";
+import burger from "../assets/slider-imgs/burgernchips.webp";
+import croquettes from "../assets/slider-imgs/croquettes.webp";
+import nachos from "../assets/slider-imgs/nachos.webp";
+import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
 const images = [burger, croquettes, nachos, pescadito, skateboard];
 const slides = [
   {
