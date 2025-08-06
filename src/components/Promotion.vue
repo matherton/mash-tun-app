@@ -1,6 +1,4 @@
 <script setup>
-import { defineProps } from "vue";
-
 const props = defineProps({
   imgSrc: String,
   imgSrc2: String,
@@ -9,7 +7,9 @@ const props = defineProps({
 
 <template>
   <div class="divider">Promotions</div>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center bg-gray-100 p-4">
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center bg-gray-100 p-4"
+  >
     <img
       :src="imgSrc"
       alt="Cocktails at The Mash Tun"
