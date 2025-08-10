@@ -1,11 +1,11 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
-import skateboard from "../assets/slider-imgs/skateboard.jpg";
+// import skateboard from "../assets/slider-imgs/skateboard.jpg";
 import burger from "../assets/slider-imgs/burgernchips.webp";
 import croquettes from "../assets/slider-imgs/croquettes.webp";
 import nachos from "../assets/slider-imgs/nachos.webp";
 import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
-const images = [burger, croquettes, nachos, pescadito, skateboard];
+const images = [burger, croquettes, nachos, pescadito];
 const slides = [
   {
     img: burger,
@@ -26,11 +26,6 @@ const slides = [
     img: pescadito,
     title: "Pescadito frito",
     text: "deep fried crispy fish & fries with lemon and garlic mayonnaise.",
-  },
-  {
-    img: skateboard,
-    title: "Experience",
-    text: "This is the fifth slide",
   },
 ];
 const currentIndex = ref(0);
