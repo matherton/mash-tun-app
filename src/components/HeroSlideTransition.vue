@@ -5,7 +5,8 @@ import burger from "../assets/slider-imgs/burgernchips.webp";
 import croquettes from "../assets/slider-imgs/croquettes.webp";
 import nachos from "../assets/slider-imgs/nachos.webp";
 import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
-const images = [burger, croquettes, nachos, pescadito];
+import chillitunes from "../assets/slider-imgs/chilli-tunes.webp";
+const images = [burger, croquettes, nachos, pescadito, chillitunes];
 const slides = [
   {
     img: burger,
@@ -26,6 +27,11 @@ const slides = [
     img: pescadito,
     title: "Pescadito frito",
     text: "deep fried crispy fish & fries with lemon and garlic mayonnaise.",
+  },
+  {
+    img: chillitunes,
+    title: "Chilli tunes",
+    text: "@ Mash Tun",
   },
 ];
 const currentIndex = ref(0);
