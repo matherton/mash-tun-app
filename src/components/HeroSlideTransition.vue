@@ -7,6 +7,7 @@ import nachos from "../assets/slider-imgs/nachos.webp";
 import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
 import chillitunes from "../assets/slider-imgs/chilli-tunes.webp";
 import cumbriatones from "../assets/slider-imgs/cumbria-tones.webp";
+import chocesspresso from "../assets/slider-imgs/choc-esspresso.webp";
 const images = [
   burger,
   croquettes,
@@ -14,6 +15,7 @@ const images = [
   pescadito,
   chillitunes,
   cumbriatones,
+  chocesspresso,
 ];
 const slides = [
   {
@@ -40,6 +42,11 @@ const slides = [
     img: chillitunes,
     title: "Chilli tunes",
     text: "@ Mash Tun",
+  },
+  {
+    img: chocesspresso,
+    title: "Choco-espresso",
+    text: "Chocolate & espresso martini.",
   },
   {
     img: cumbriatones,
