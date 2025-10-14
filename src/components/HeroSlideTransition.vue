@@ -1,45 +1,12 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
-// import skateboard from "../assets/slider-imgs/skateboard.jpg";
-import burger from "../assets/slider-imgs/burgernchips.webp";
-import croquettes from "../assets/slider-imgs/croquettes.webp";
-import nachos from "../assets/slider-imgs/nachos.webp";
-import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
+
 import chillitunes from "../assets/slider-imgs/chilli-tunes.webp";
 import cumbriatones from "../assets/slider-imgs/cumbria-tones.webp";
 import chocesspresso from "../assets/slider-imgs/choc-esspresso.webp";
 import dodgykrugerrands from "../assets/slider-imgs/dodgykrugerrands.webp";
-const images = [
-  burger,
-  croquettes,
-  nachos,
-  pescadito,
-  chillitunes,
-  cumbriatones,
-  chocesspresso,
-  dodgykrugerrands,
-];
+const images = [chillitunes, cumbriatones, chocesspresso, dodgykrugerrands];
 const slides = [
-  {
-    img: burger,
-    title: "Spanish Beef burger",
-    text: "onion, lettuce, tomato, Spanish ham, parmesan & asparagus.",
-  },
-  {
-    img: croquettes,
-    title: "Croquettes",
-    text: "various varieties: Mushroom, Truffle, Spanish Ham.",
-  },
-  {
-    img: nachos,
-    title: "Nachos",
-    text: "Nachos with fresh chilli, cheese, tomatos, onions & guacamole.",
-  },
-  {
-    img: pescadito,
-    title: "Pescadito frito",
-    text: "deep fried crispy fish & fries with lemon and garlic mayonnaise.",
-  },
   {
     img: chillitunes,
     title: "Chilli tunes",
