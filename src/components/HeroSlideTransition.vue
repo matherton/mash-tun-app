@@ -8,6 +8,7 @@ import pescadito from "../assets/slider-imgs/pescadito-frito.webp";
 import chillitunes from "../assets/slider-imgs/chilli-tunes.webp";
 import cumbriatones from "../assets/slider-imgs/cumbria-tones.webp";
 import chocesspresso from "../assets/slider-imgs/choc-esspresso.webp";
+import dodgykrugerrands from "../assets/slider-imgs/dodgykrugerrands.webp";
 const images = [
   burger,
   croquettes,
@@ -16,6 +17,7 @@ const images = [
   chillitunes,
   cumbriatones,
   chocesspresso,
+  dodgykrugerrands,
 ];
 const slides = [
   {
@@ -52,6 +54,11 @@ const slides = [
     img: cumbriatones,
     title: "Cumbria Tones",
     text: "@ Mash Tun",
+  },
+  {
+    img: dodgykrugerrands,
+    title: "Dodgy Krugerrands",
+    text: "Cocktail with a kick!",
   },
 ];
 const currentIndex = ref(0);
