@@ -9,23 +9,23 @@ const images = [chillitunes, cumbriatones, chocesspresso, dodgykrugerrands];
 const slides = [
   {
     img: chillitunes,
-    title: "Chilli tunes",
-    text: "@ Mash Tun",
+    title: "",
+    text: "Live Music",
   },
   {
     img: chocesspresso,
-    title: "Choco-espresso",
-    text: "Chocolate & espresso martini.",
+    title: "",
+    text: "Cocktails",
   },
   {
     img: cumbriatones,
-    title: "Cumbria Tones",
-    text: "@ Mash Tun",
+    title: "",
+    text: "Live Music",
   },
   {
     img: dodgykrugerrands,
-    title: "Dodgy Krugerrands",
-    text: "Cocktail with a kick!",
+    title: "",
+    text: "Cocktails",
   },
 ];
 const currentIndex = ref(0);
@@ -184,9 +184,10 @@ onBeforeUnmount(() => {
   text-decoration: underline;
 }
 .slide-description p {
-  font-size: 1.2rem; /* Adjust as needed */
+  font-size: 2rem; /* Adjust as needed */
   max-width: 60%;
   text-align: center;
+  padding-top: 1.5rem;
 }
 </style>
 <script>
