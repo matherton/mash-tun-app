@@ -1,14 +1,19 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
+import cumbiatonesElruedo from "../assets/slider-imgs/cumbiatones+elruedo.webp";
 import chillitunes from "../assets/slider-imgs/chilli-tunes.webp";
-import cumbriatones from "../assets/slider-imgs/cumbria-tones.webp";
 import chocesspresso from "../assets/slider-imgs/choc-esspresso.webp";
 import dodgykrugerrands from "../assets/slider-imgs/dodgykrugerrands.webp";
-const images = [chillitunes, cumbriatones, chocesspresso, dodgykrugerrands];
+const images = [
+  chillitunes,
+  cumbiatonesElruedo,
+  chocesspresso,
+  dodgykrugerrands,
+];
 const slides = [
   {
-    img: chillitunes,
+    img: cumbiatonesElruedo,
     title: "",
     text: "Live Music",
   },
@@ -18,7 +23,7 @@ const slides = [
     text: "Cocktails",
   },
   {
-    img: cumbriatones,
+    img: chillitunes,
     title: "",
     text: "Live Music",
   },
