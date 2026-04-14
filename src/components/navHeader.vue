@@ -27,15 +27,26 @@ import logo from "../assets/mash-tun-icon.jpg";
           tabindex="0"
           class="menu menu-sm dropdown-content bg-navbar text-[#d4a750] rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
-          <!--  <li>
+          <li><a href="#promotions">Promotions</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
             <a
               href="https://drive.google.com/file/d/1SAgxkR3KmCDCVMemOT1pp4GFUvOWQM_J/view"
               target="_blank"
-              >Menu </a
+              title="opens in new tab"
+              alt="Menu: opens in new tab"
+              >Menu
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://matherton.github.io/mash-tun/"
+              target="_blank"
+              title="opens in new tab"
+              alt="Food Images: open in new tab"
+              >Food Images</a
             >
-          </li> -->
-          <li><a href="#promotions">Promotions</a></li>
-          <li><a href="#contact">Contact</a></li>
+          </li>
         </ul>
       </div>
     </div>
